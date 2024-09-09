@@ -23,25 +23,25 @@ body {
 .principal {
     background-image: url("Background.png"); #imagem como plano de fundo
     background-repeat: no-repeat; #não repitir a imagem
-    background-size: contain; #
-    align-items: center;
-    text-align: center;
+    background-size: contain; #ele coloca não repete a imagem
+    align-items: center; #items se alinham ao centro
+    text-align: center; # os textos se alinham ao centro
 }
 
 .container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    height: 100vh; #altura
+    display: grid; #comfiguração para organizar os elementos 
+    grid-template-columns: 50% 50%; #espaço que é usado da tag
 }
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+    border-radius: 5px; #deixar as bordas arredondadas
+    padding: 1em; #espaçamento
+    color: var(--branco-principal); #cor da fonte
+    display: block; #
+    text-decoration: none; #
+    margin-bottom: 1em; #
 }
 
 .botao_secundario {
