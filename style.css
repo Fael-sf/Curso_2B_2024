@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo); #cor de fundo
+    background-color: var(--cor-de-fundo); /*cor de fundo*/
     color: var(--branco-principal); #mudar a cor da fonte
     font-family: var(--fonte-principal); #estilo da fonte
     font-size: 16px; #tamanho da fonte
@@ -35,11 +35,11 @@ body {
 }
 
 .container__botao {
-    background-color: var(--botao-azul);
+    background-color: var(--botao-azul); #cor de fundo
     border-radius: 5px; #deixar as bordas arredondadas
     padding: 1em; #espaçamento
     color: var(--branco-principal); #cor da fonte
-    display: block; #
+    display: block; # display bloqueado
     text-decoration: none; #
     margin-bottom: 1em; #
 }
